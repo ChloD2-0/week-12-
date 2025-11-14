@@ -23,22 +23,32 @@ print(my_list[0:])
 # Modifying lists
 # Adding an item to the end of the list
 my_list.append(6)
+my_list.append(7)
+my_list.append(8)
+print(my_list) # [1, 2, 3, 4, 5]
+my_list.extend([10, 11, 12, 13, 14])
+print(my_list) 
+# add 500 more numbers
+my_list.extend(list(range(15,515)))
+print(my_list)
+my_list.extend(list(range(15,615)))
+print(my_list)
 # ^ IMPORTANT * PERFORMANCE TASK ANSWER
 # Examples:
 
-my_list = ['apple', 'banana', 'cherry']
-print(my_list[0])         # apple
-print(my_list[1:])        # ['banana', 'cherry']
+# my_list = ['apple', 'banana', 'cherry']
+# print(my_list[0])         # apple
+# print(my_list[1:])        # ['banana', 'cherry']
 
-my_list.append('grape')
-print(my_list)
+# my_list.append('grape')
+# print(my_list)
 
-my_list.pop(1)
-print(my_list)
+# my_list.pop(1)
+# print(my_list)
 
-numbers = [3, 1, 4, 2]
-numbers.sort()
-print(numbers)
+# numbers = [3, 1, 4, 2]
+# numbers.sort()
+# print(numbers)
 
 
 # Practice Problems:
